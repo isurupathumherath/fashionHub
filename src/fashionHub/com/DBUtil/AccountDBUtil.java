@@ -323,7 +323,7 @@ public class AccountDBUtil implements AccountInterface{
 		con = DBConnection.createConnection();
 		Statement stmt=con.createStatement();
 		String strSql= "select Image_id,Image_name from upload_image_user";
-		System.out.println("ImageList query–" + strSql);
+		System.out.println("ImageList queryï¿½" + strSql);
 		ResultSet rs=stmt.executeQuery(strSql);
 
 		while(rs.next()){
