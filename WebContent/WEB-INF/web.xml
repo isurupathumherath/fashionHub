@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+     
+    <servlet>
+		<servlet-name>loadImage</servlet-name>
+		<servlet-class>fashionHub.com.Servlet.displayHomeServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>loadImage</servlet-name>
+		<url-pattern>/loadImage</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+        <welcome-file>loadImage</welcome-file>
+    </welcome-file-list>
+         
+	<servlet>
+		<servlet-name>register</servlet-name>
+		<servlet-class>fashionHub.com.Servlet.registerCustomerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>register</servlet-name>
+		<url-pattern>/registerServ</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>registerData</servlet-name>
+		<servlet-class>fashionHub.com.Servlet.registerCustomerDataServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>registerData</servlet-name>
+		<url-pattern>/registerDataServ</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>login</servlet-name>
+		<servlet-class>fashionHub.com.Servlet.loginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>login</servlet-name>
+		<url-pattern>/loginServ</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>logout</servlet-name>
+		<servlet-class>fashionHub.com.Servlet.logoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>logout</servlet-name>
+		<url-pattern>/logoutServ</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>displayAccount</servlet-name>
+		<servlet-class>fashionHub.com.Servlet.displayPersonServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>displayAccount</servlet-name>
+		<url-pattern>/displayPerson</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>updateAccountDisplay</servlet-name>
+		<servlet-class>fashionHub.com.Servlet.displayUpdateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updateAccountDisplay</servlet-name>
+		<url-pattern>/updateDisplay</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>updateAccount</servlet-name>
+		<servlet-class>fashionHub.com.Servlet.updateAccountServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updateAccount</servlet-name>
+		<url-pattern>/updateAccount</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>deleteAccount</servlet-name>
+		<servlet-class>fashionHub.com.Servlet.deleteAccountServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deleteAccount</servlet-name>
+		<url-pattern>/deleteAccount</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>InsertImage</servlet-name>
+		<servlet-class>fashionHub.com.Servlet.insertImageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InsertImage</servlet-name>
+		<url-pattern>/InsertImage</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AddItem</servlet-name>
+		<servlet-class>fashionHub.com.Servlet.AddItem</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddItem</servlet-name>
+		<url-pattern>/AddItm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SendFeedback</servlet-name>
+		<servlet-class>fashionHub.com.Servlet.sendFeedback</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SendFeedback</servlet-name>
+		<url-pattern>/SendFeedback</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AddToCart</servlet-name>
+		<servlet-class>fashionHub.com.Servlet.addToCart</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddToCart</servlet-name>
+		<url-pattern>/AddToCart</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SearchItem</servlet-name>
+		<servlet-class>fashionHub.com.Servlet.searchItemServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SearchItem</servlet-name>
+		<url-pattern>/SearchItem</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RemoveCart</servlet-name>
+		<servlet-class>fashionHub.com.Servlet.deleteCartServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RemoveCart</servlet-name>
+		<url-pattern>/RemoveCart</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>displayCart</servlet-name>
+		<servlet-class>fashionHub.com.Servlet.displayCartServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>displayCart</servlet-name>
+		<url-pattern>/displayCart</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ShowProduct</servlet-name>
+		<servlet-class>fashionHub.com.Servlet.showProductServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShowProduct</servlet-name>
+		<url-pattern>/ShowProduct</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ViewFeedback</servlet-name>
+		<servlet-class>fashionHub.com.Servlet.ViewFeedbackServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewFeedback</servlet-name>
+		<url-pattern>/ViewFeedback</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RemoveFeedback</servlet-name>
+		<servlet-class>fashionHub.com.Servlet.removeFeedback</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RemoveFeedback</servlet-name>
+		<url-pattern>/RemoveFeedback</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AddToCartServ</servlet-name>
+		<servlet-class>fashionHub.com.Servlet.AddToCartServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddToCartServ</servlet-name>
+		<url-pattern>/AddToCartServ</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>purchaseItem</servlet-name>
+		<servlet-class>fashionHub.com.Servlet.purchaseItemServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>purchaseItem</servlet-name>
+		<url-pattern>/purchaseItem</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
