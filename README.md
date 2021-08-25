@@ -27,5 +27,11 @@ An e-commerce web application for sell cloths and fashion items
   <li>Managers, Delivery persons and sales representatives are employees of the food store, therefore details of their dependencies are stored in the database to give bonuses and other purposes. Name, address, phone numbers, email address, city and more other details are saved. There cannot be dependency without an employee. When an employee is removed from the database dependency’s details also removed automatically.</li> 
 </ul>
 
-
+# Technologies
+<ul>
+  <li>Java</li>
+  <li>Servlet</li>
+  <li>HTML, CSS, JavaScripts</li>
+  <li>MVC Architecture</li>
+</ul>
 
