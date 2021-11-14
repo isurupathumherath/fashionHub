@@ -35,3 +35,8 @@ An e-commerce web application for sell cloths and fashion items
   <li>MVC Architecture</li>
 </ul>
 
+# Colloborators
+<ul>
+  <li>Isuru Pathum Herath (github username - isurupathumherath) </li>
+  <li>Savindya Dhananjani (github username - SavindyaDhananjani)</li>
+</ul>
