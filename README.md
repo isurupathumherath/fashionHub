@@ -37,6 +37,6 @@ An e-commerce web application for sell cloths and fashion items
 
 # Colloborators
 <ul>
-  <li>Isuru Pathum Herath (github username - <a href="https://github.com/isurupathumherath/">isurupathumherath</a>) </li>
-  <li>Savindya Dhananjani (github username - <a href="https://github.com/SavindyaDhananjani">SavindyaDhananjani</a>)</li>
+  <li>Isuru Pathum Herath - <a href="https://github.com/isurupathumherath/">isurupathumherath</a></li>
+  <li>Savindya Dhananjani - <a href="https://github.com/SavindyaDhananjani">SavindyaDhananjani</a></li>
 </ul>
